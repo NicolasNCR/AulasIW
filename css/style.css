@@ -14,14 +14,14 @@ p{
 	text-align: justify;
 	font-weight: bold;
     font-size: 18px 
-    }
+}
         
 h1{
     font-size: 35px ;
     text-align: center; 
     font-weight: bold;
     background-color: #6495ED 
-    }
+}
 
 h2{
     font-size: 25px ;
@@ -33,12 +33,12 @@ h2{
 figure{
 
     text-align: center;
-    }
+}
 
 img{
 
     border: 5px double  #828282
-    }
+}
 
 ul li, ol li{
 
