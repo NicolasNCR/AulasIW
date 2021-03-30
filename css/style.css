@@ -1,10 +1,13 @@
 body{
 	background-image:url("../img/fundo.png");
     background-repeat: round;
-    width: 80%;	
-    margin-left: auto;
-    margin-right: auto;
     }
+
+.container{
+    width: 80%;    
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 p{
 	color: #FFF;
@@ -37,5 +40,26 @@ img{
     border: 5px double  #828282
     }
 
+ul li, ol li{
 
+    color: #FFF;
+    text-align: justify; 
+    font-weight: bold;
+    font-size: 18px
+}
 
+table{
+    color: #FFF;
+    border: 5px double #fff;
+
+}
+
+td,th{
+    border: 5px solid #828282;
+    padding: 10px;
+
+} 
+
+.centro{
+    text-align: center;
+}
