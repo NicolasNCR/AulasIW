@@ -1,65 +1,123 @@
 body{
-	background-image:url("../img/fundo.png");
-    background-repeat: round;
+	background-image:url("../img/tecnologia_2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
 .container{
     width: 80%;    
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    margin-top: 2%;
+    magin-bottom: 2%; 
+}
+
+header{
+    background-color: rgba(0,191,255,0.6);
+    padding: 3%
+}
+
+footer{
+    background-color: rgba(0,191,255,0.6);
+    padding: 3%
+    
 }
 
 p{
 	color: #FFF;
 	text-align: justify;
 	font-weight: bold;
-    font-size: 18px 
+    font-size: 1.2em;
+    margin-top: 1.3%;
+    margin-bottom: 1%;
+
 }
         
 h1{
-    font-size: 35px ;
-    text-align: center; 
-    font-weight: bold;
-    background-color: #6495ED 
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold; 
 }
 
 h2{
-    font-size: 25px ;
+    font-size: 1.5em;
     text-align: center; 
     font-weight: bold;
     background-color: #FF4040;
     }
+
+.titulos{
+    text-align: center; 
+    font-weight: bold;
+    color: #363636;
+    margin-top: 2%;
+    magin-bottom: 2%;
+
+}
+
+.listas{
+    color: #FFF;
+    margin-top: 1.3%;
+    margin-bottom: 1%;
+    text-align: justify; 
+    font-weight: bold;
+    font-size: 1.1em;
+
+    
+}
 
 figure{
 
     text-align: center;
 }
 
+a:link {
+  color: #00FA9A;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00FA9A;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 img{
 
-    border: 5px double  #828282
+    border: 0.3em double  #828282
 }
 
-ul li, ol li{
-
-    color: #FFF;
-    text-align: justify; 
-    font-weight: bold;
-    font-size: 18px
-}
 
 table{
     color: #FFF;
-    border: 5px double #fff;
+    border: 0.4em double #fff;
 
 }
 
 td,th{
-    border: 5px solid #828282;
-    padding: 10px;
+    border: 0.3em solid #828282;
+    padding: 0.7em;
 
 } 
 
 .centro{
     text-align: center;
+
+}
+
+ul li{
+
+    list-style-type: disc
+}
+
+ol li{
+
+    list-style-type: decimal; 
 }
