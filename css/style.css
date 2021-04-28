@@ -2,6 +2,7 @@ body{
 	background-image:url("../img/tecnologia_2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Architects Daughter', cursive;    
     }
 
 .container{
@@ -26,7 +27,6 @@ footer{
 p{
 	color: #FFF;
 	text-align: justify;
-	font-weight: bold;
     font-size: 1.2em;
     margin-top: 1.3%;
     margin-bottom: 1%;
@@ -47,6 +47,7 @@ h2{
     }
 
 .titulos{
+    font-family: 'Indie Flower', cursive;
     text-align: center; 
     font-weight: bold;
     color: #363636;
@@ -60,7 +61,6 @@ h2{
     margin-top: 1.3%;
     margin-bottom: 1%;
     text-align: justify; 
-    font-weight: bold;
     font-size: 1.1em;
 
     
@@ -91,14 +91,18 @@ a:hover {
 
 img{
 
-    border: 0.3em double  #828282
+    border: 0.3em double  #828282;
+    width: 100%;
+    height: 100%;
+    max-width: 485px;
+    max-height: 390px
 }
 
 
 table{
     color: #FFF;
     border: 0.4em double #fff;
-
+    
 }
 
 td,th{
@@ -121,3 +125,4 @@ ol li{
 
     list-style-type: decimal; 
 }
+
