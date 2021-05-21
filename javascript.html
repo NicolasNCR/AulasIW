@@ -11,12 +11,23 @@
 	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<nav>
-			<h1 class="titulos">JavaScript</h1>
+	<header class="fixo">
+		<h1><img class="imglogo" src="img/logotipo.png"></h1>
+		<nav class="menu-opcoes">
+			<ul class="ajustes">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="index.html#html">HTML</a></li>
+				<li><a href="index.html#css">CSS</a></li>
+				<li><a href="javascript.html">JavaScript</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
 		</nav>
 	</header>
 	<div class="container">
+		<div class="text-block">
+		<h1 class="text">JavaScript</h1>
+		</div>
+
 		<p>JavaScript® é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. </p> 
 
 		<p>O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional).
@@ -24,11 +35,11 @@
 
 		<figure>
 
-		<img src="img/javascript.png">
+		<img class="imgjava" src="img/javascript.png">
 		
 		</figure>
 
-		<ul class="listas">
+		<ul class="ul-listas">
 
 		<li class="listas"> JavaScript é a linguagem de programação mais popular do mundo.</li>
 
@@ -52,7 +63,7 @@
 
 		<br>
 
-		<ol class="listas">
+		<ol class="ol-listas">
 		<li class="listas">HTML para definir o conteúdo das páginas da web</li>
 		<br>
 		<li class="listas">CSS para especificar o layout das páginas da web</li>
@@ -65,29 +76,36 @@
  		<br>
 
  		<h2 class="titulos">Comparação entre as linguagens: HTML, CSS e JavaScript</h2>
- 			<table>
+
+ 		<div class="content">
+			<table class="rtable">
  				<tr>
- 					<th>HTML</th>
- 					<th>CSS</th>
- 					<th>JAVASCRIPT</th>
+ 					<th class="th-text">Linguagem</th>
+ 					<th class="th-text">Função</th>
+ 					<th class="th-text">Descrição</th>
  				</tr>
  				<tr>
+ 					<td>HTML</td>
  					<td>É uma linguagem de marcação</td>
- 					<td>É uma linguagem de estilização</td>
- 					<td>É uma linguagem de programação que traz comportamento para a página</td>
+ 					<td>Aqui você marca cada conteúdo da página, como parágrafos, títulos, tabelas, formulários, etc.</td>
  				</tr>
  				<tr>
- 					<td>Aqui você marca cada conteúdo da página, como parágrafos, títulos, tabelas, formulários, etc.</td>
+ 					<td>CSS</td>
+ 					<td>É uma linguagem de estilização</td>
  					<td>Neste você da cor e posicionamento ao conteúdo</td>
+ 				</tr>
+
+ 				<tr>
+ 					<td>JAVASCRIPT</td>
  					<td>Permite interação com o usuário</td>
+ 					<td> É uma linguagem de programação que traz comportamento para a página</td>
  				</tr>
 
  				<br>
 
  			</table>
- 			<br>
- 			<br>
- 			<p class="centro"><a href="index.html">Clique aqui</a> para voltar à página inicial</a></p>
+ 		</div>
+
  			<br>
  		</div>
  	<footer><p class="centro">Rodapé</p></footer>
